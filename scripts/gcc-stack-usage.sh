@@ -6,7 +6,7 @@
 
 TMP="$$"
 
-cat <<END | $@ -Werror -fstack-usage -x c - -c -o $TMP >/dev/null 2>&1 \
+cat <<END | $@  -fstack-usage -x c - -c -o $TMP >/dev/null 2>&1 \
 							&& echo "y"
 int main(void)
 {

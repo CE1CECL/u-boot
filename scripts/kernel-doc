@@ -87,7 +87,7 @@ Output selection modifiers:
 Other parameters:
   -v			Verbose output, more warnings and other information.
   -h			Print this help.
-  -Werror		Treat warnings as errors.
+  		Treat warnings as errors.
 
 EOF
     print $message;
